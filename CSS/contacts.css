@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.contact-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-container label {
+    font-weight: bold;
+    color: #555;
+}
+.contact-container input,
+.contact-container textarea,
+.contact-container button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-container textarea {
+    resize: vertical;
+    height: 120px;
+}
+.contact-container button {
+    background-color: #474fa0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-details {
+    margin-top: 30px;
+    text-align: center;
+}
+.contact-details p {
+    margin: 5px 0;
+}
+.contact-details a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.contact-details a:hover {
+    text-decoration: underline;
+}
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
